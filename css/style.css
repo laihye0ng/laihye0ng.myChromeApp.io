@@ -1,0 +1,106 @@
+body {
+  background-size: cover;
+  color: white;
+}
+
+button {
+  all: unset;
+  margin: 0 0 5px 10px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+li {
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  list-style: none;
+}
+
+input::placeholder {
+  color: rgb(200, 200, 200);
+}
+
+#clock {
+  top: 34vh;
+  position: relative;
+  width: 50vw;
+  height: 5vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Malgun Gothic';
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+#hello {
+  position: relative;
+  top: 38vh;
+  width: 50vw;
+  height: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-family: 'Malgun Gothic';
+  font-size: 2vw;
+}
+
+#login-form {
+  position: relative;
+  top: 38vh;
+  width: 20vw;
+  height: 3vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-input {
+  all: unset;
+  color: white;
+  width: 20vw;
+  height: 3vw;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  border-radius: 15px;
+}
+
+#logout {
+  
+}
+
+#todo {
+  position: relative;
+  top: 45vh;
+}
+
+#todo-form {
+  text-align: center;
+}
+
+.todo-input {
+  all: unset;
+  width: 12vw;
+  height: 2vw;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+}
+
+#weather {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}

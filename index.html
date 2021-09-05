@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>lai_hye0ng</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="clock"></div>    
+    <form id="login-form">
+      <input class="login-input" required maxlength="15" placeholder="What's your name?"/>
+    </form>
+    <div class="hidden" id="hello"></div>
+    <div class="hidden" id="todo">
+      <form id="todo-form">
+        <input class="todo-input" placeholder="add to do"/>
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div class="hidden" id="weather">
+      <div>---</div>
+      <div>No location</div>
+    </div>
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
